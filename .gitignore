@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+backend/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS files
+.DS_Store
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
